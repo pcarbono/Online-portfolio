@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Title-->
+    <title>Pedro Carbonó | Web Developer</title>
+
+    <!--Metadatos-->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Pedro Carbonó" />
+    <meta name="description" content="Portafolio de Pedro Carbonó" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Iconos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet" />
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png" />
+
+    <!-- Estilo de letras -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggle"><i class="bi bi-list"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="https://www.linkedin.com/in/pcarbono"
+          target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-braces" style="color:white; font-size: 2.5rem"></i>
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <section id="hero" class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador"
+          src="imagenes/foto.png"
+          alt="foto de Pedro Carbonó"
+        />
+        <h1>Hello, I´m Pedro Carbonó</h1>
+        <h2>Web Developer</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="imagenes/hero-inferior.svg"
+          alt="monitor, laptop y logos de HTML, CSS, JavaScript y React."
+        />
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">About me</h2>
+        <p class="seccion-texto">
+          I'm Pedro Carbonó, a web developer passionate about creating
+          innovative digital solutions. I specialize in using key technologies
+          like JavaScript, Node.js, and React to build attractive and functional
+          interfaces. Additionally, I bring knowledge in SQL for database
+          management and proficiency in Git for effective version control. Let
+          me share more about my profile with you.
+        </p>
+      </div>
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Electronic Industrial -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-cpu-fill"></i>
+            <p class="experiencia-titulo">Electronic Industrial</p>
+            <p style="font-family: 'Quicksand', sans-serif">
+              I have skills in the design of industrial electronic circuits,
+              programming PLCs (Programmable Logic Controllers), and the
+              application of wired logic. Additionally, I have experience in
+              integrating motors, sensors, and configuring variable frequency
+              drives.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">PLC</span>
+              <span class="badge text-bg-primary">Electricity</span>
+              <span class="badge text-bg-primary">Drivers</span>
+            </div>
+          </div>
+          <!-- Web developer -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Web Developer</p>
+            <p style="font-family: 'Quicksand', sans-serif">
+              As a web developer, I bring specialized skills in key technologies
+              like JavaScript, Node.js, and React. My experience includes
+              efficiently handling version control systems like Git and creating
+              visually appealing interfaces using Bootstrap.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">NodeJs</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Online Seller -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-cart-check-fill"></i>
+            <p class="experiencia-titulo">Online Seller</p>
+            <p style="font-family: 'Quicksand', sans-serif">
+              As an online seller of handmade items, I offer unique and
+              high-quality products through sales platforms. I prioritize
+              customer satisfaction and aim to build lasting relationships based
+              on trust and excellence in service.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Handmade</span>
+              <span class="badge text-bg-primary">Marketplaces</span>
+              <span class="badge text-bg-primary">Sales</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+
+    <section id="proyectos">
+      <h2 class="seccion-titulo texto-negro">My projects</h2>
+      <h3 class="seccion-descripcion">
+        Here are a few personal projects I've been working on recently...
+      </h3>
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+          <!-- Item 1 acordeon -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Web Calculator
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body" style="align-items: center">
+                <!-- Tarjeta proyecto 1 -->
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-lg-4">
+                      <img
+                        src="imagenes/proyecto1.png"
+                        class="imagen-tarjeta img-fluid rounded-start"
+                        alt="Proyecto Calculadora"
+                      />
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="card-body">
+                        <p class="card-text">
+                          This project was developed as part of my early
+                          frontend lessons. Here, I put into practice my
+                          knowledge in React.js and CSS.
+                        </p>
+                        <div class="enlaces-proyecto">
+                          <div class="col-2 iconos-acordeon">
+                            <a
+                              href="https://github.com/pcarbono/Calculator"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i class="bi bi-github" id="github"></i>
+                            </a>
+                            <label
+                              for="github"
+                              style="font-family: 'Quicksand', sans-serif"
+                              >Code</label
+                            >
+                          </div>
+                          <div class="col-2 iconos-acordeon">
+                            <a
+                              href="https://pcarbono.github.io/Calculator/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i class="bi bi-laptop" id="laptop"></i>
+                            </a>
+                            <label
+                              for="laptop"
+                              style="font-family: 'Quicksand', sans-serif"
+                              >Online</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 acordeon -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Task Management
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <!-- Tarjeta proyecto 2 -->
+                <div class="card lg-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="imagenes/proyecto2.png"
+                        class="imagen-tarjeta img-fluid rounded-start"
+                        alt="Proyecto Calculadora"
+                      />
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="card-body">
+                        <p class="card-text">
+                          This web application was developed as part of an exercise where it was essential to integrate knowledge in React, database management, and Bootstrap.
+                        </p>
+                        <div class="enlaces-proyecto">
+                          <div class="col-2 iconos-acordeon">
+                            <a
+                              href="https://github.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i class="bi bi-github" id="github"></i>
+                            </a>
+                            <label
+                              for="github"
+                              style="font-family: 'Quicksand', sans-serif"
+                              >Code</label
+                            >
+                          </div>
+                          <div class="col-2 iconos-acordeon">
+                            <a
+                              href="https://github.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i class="bi bi-laptop" id="laptop"></i>
+                            </a>
+                            <label
+                              for="laptop"
+                              style="font-family: 'Quicksand', sans-serif"
+                              >Online</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 acordeon -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                SQL Database
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <!-- Tarjeta proyecto 3 -->
+                <div class="card lg-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="imagenes/proyecto3.png"
+                        class="imagen-tarjeta img-fluid rounded-start"
+                        alt="Proyecto Calculadora"
+                      />
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="card-body">
+                        <p class="card-text">
+                        I have experience writing SQL queries to extract and manipulate data according to project requirements.
+                        </p>
+                        <div class="enlaces-proyecto">
+                          <div class="col-2 iconos-acordeon">
+                            <a
+                              href="https://github.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i class="bi bi-github" id="github"></i>
+                            </a>
+                            <label
+                              for="github"
+                              style="font-family: 'Quicksand', sans-serif"
+                              >Code</label
+                            >
+                          </div>
+                          <div class="col-2 iconos-acordeon">
+                            <a
+                              href="https://github.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i class="bi bi-laptop" id="laptop"></i>
+                            </a>
+                            <label
+                              for="laptop"
+                              style="font-family: 'Quicksand', sans-serif"
+                              >Online</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 acordeon -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Online Game
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <!-- Tarjeta proyecto 4 -->
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-lg-4">
+                      <img
+                        src="imagenes/proyecto4.png"
+                        class="imagen-tarjeta img-fluid rounded-start"
+                        alt="Proyecto Calculadora"
+                      />
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="card-body">
+                        <p class="card-text">
+                          During this class project, I utilized JavaScript, CSS, and HTML. It served as my starting point in the exploration of web development, providing insights into both frontend and backend aspects.
+                        </p>
+                        <div class="enlaces-proyecto">
+                          <div class="col-2 iconos-acordeon">
+                            <a
+                              href="https://github.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i class="bi bi-github" id="github"></i>
+                            </a>
+                            <label
+                              for="github"
+                              style="font-family: 'Quicksand', sans-serif"
+                              >Code</label
+                            >
+                          </div>
+                          <div class="col-2 iconos-acordeon">
+                            <a
+                              href="https://github.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i class="bi bi-laptop" id="laptop"></i>
+                            </a>
+                            <label
+                              for="laptop"
+                              style="font-family: 'Quicksand', sans-serif"
+                              >Online</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://github.com/pcarbono?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          type="button"
+          class="btn btn-info"
+          style="font-family: 'Quicksand', sans-serif"
+        >
+          See more <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Estudios -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo seccion-fuente">Studies</h2>
+      <div class="card">
+        <div class="card-header" style="font-family: 'Quicksand', sans-serif">
+          These are some of my studies
+        </div>
+        <ul class="list-group list-group-flush">
+          <a
+            href="https://drive.google.com/file/d/1qmU9Kb87MOeVKI6QVaLNDdDH12WdJVOo/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li
+              class="list-group-item"
+              style="font-family: 'Quicksand', sans-serif"
+            >
+              JavaScript Intermediate
+            </li>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1h8vasLxD52VjalR9b9sRED0ybHmF5le6/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li
+              class="list-group-item"
+              style="font-family: 'Quicksand', sans-serif"
+            >
+              Foundations of Programming
+            </li>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1ywv0mgXJrVwaWgDTCp8NasC3LsiC9gAj/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li
+              class="list-group-item"
+              style="font-family: 'Quicksand', sans-serif"
+            >
+              HTML and CSS programming
+            </li>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1PP4-Ef1RYUsAB4sMIOyHeC5o47SXRjDF/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li
+              class="list-group-item"
+              style="font-family: 'Quicksand', sans-serif"
+            >
+              Introduction to Python
+            </li>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1c3yG4EjmhUg9VcC92iC0rY8xRXe7xNru/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li
+              class="list-group-item"
+              style="font-family: 'Quicksand', sans-serif"
+            >
+              Industrial Electronic
+            </li>
+          </a>
+        </ul>
+      </div>
+
+      <a
+        href="https://drive.google.com/drive/folders/1Y7xzu8z5uV4R0yJw3qP0EC8cdl_-lx6b?usp=drive_link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          type="button"
+          class="btn btn-info"
+          style="font-family: 'Quicksand', sans-serif"
+        >
+          See more <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Trabajos recientes -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Professional experience</h2>
+      <h3 class="seccion-descripcion">
+        These are some of my most recent jobs...
+      </h3>
+
+      <!-- Carrusel -->
+      <div
+        id="testimonio-carrusel"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/empresa1.jpg"
+                alt="Stand photo"
+              />
+              <p class="testimonio-texto">
+                Maintenance Technician and CNC Machine Programmer with
+                experience in the installation and commissioning of machinery.
+                Proficient in planning and executing maintenance activities, as
+                well as developing preventive maintenance routines
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Stand Iluminaciones</p>
+                <p class="cargo">CNC Machinery Programmer</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/empresa2.jpg"
+                alt="Elite photo"
+              />
+              <p class="testimonio-texto">
+                Coordinate, assign, and supervise the correct execution of
+                corrective and preventive maintenance tasks for agricultural
+                machinery in the flower sector.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Elite Flower</p>
+                <p class="cargo">Maintenance Supervisor</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/empresa3.jpg"
+                alt="Foto de Pablo"
+              />
+              <p class="testimonio-texto">
+                Execution of preventive, predictive, and corrective maintenance
+                on production machinery. Proficient in PLC programming, as well
+                as the design, development, and modernization of production
+                machines.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Jehovah´s Witnesses</p>
+                <p class="cargo">Electronic Technician</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonio-carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Back</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonio-carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div
+          class="container text-center rectangulo d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">Let's talk!</div>
+            <div
+              class="col-12 col-md-4 descripcion"
+              style="font-family: 'Quicksand', sans-serif"
+            >
+              Get in touch with me to kickstart your web development project,
+              and I'll turn your vision into reality.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:pcarbono@gmail.com">
+                <button
+                  type="button"
+                  style="font-family: 'Quicksand', sans-serif"
+                >
+                  Contact me
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pie de pagina(footer) -->
+
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+    <i class="bi bi-braces" style="color:white; font-size: 2.5rem"></i>
+      <p
+        class="footer-texto text-center"
+        style="font-family: 'Quicksand', sans-serif"
+      >
+        Let's create a project together!
+      </p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://api.whatsapp.com/send?phone=+573114026601&text=Hi Pedro! I want to contact you."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a
+          href="https://github.com/pcarbono"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/pcarbono"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="mailto:pcarbono@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div
+        class="derechos-de-autor"
+        style="font-family: 'Quicksand', sans-serif"
+      >
+        Created by Pedro Carbonó (2024)&#169;
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
