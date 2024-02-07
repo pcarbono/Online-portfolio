@@ -445,6 +445,71 @@ footer{
     }
 } */
 
+/* boton flotante */
+
+#btn-mas{
+    display: none;
+
+}
+
+.fixed_button{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.redes a, .icon-mas2{
+    display: block;
+    text-decoration:none;
+    /* background:#cc2b2b; */
+    background: rgb(13, 110, 253);;
+    color:#FFF;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+        
+}
+
+.redes a:hover{
+    background: #fff;
+    /* color:#cc2b2b; */
+    color: rgb(13, 110, 253);;
+}
+
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.icon-mas2{
+    cursor: pointer;
+    /* background: #f44141; */
+    background: #0DCAF0;
+    font-size: 23px;
+}
+
+.redes i{
+    font-size: 1.2rem;
+}
+
+#btn-mas:checked~ .btn-mas .icon-mas2{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
+
+
 /* Animacion */
 
 .area{
@@ -570,3 +635,4 @@ footer{
     }
 
 }
+

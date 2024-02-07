@@ -42,7 +42,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light" id="home">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -709,10 +709,25 @@
       </div>
     </section>
 
+    <!-- Boton flotante -->
+
+    <div class="fixed_button">
+      <input type="checkbox" id="btn-mas">
+      <div class="redes">
+          <a href="#home"><i class="bi bi-house-add-fill"></i></a>
+          <a href="#experiencia"><i class="bi bi-person-circle"></i></a>
+          <a href="#proyectos"><i class="bi bi-gear-wide-connected"></i></a>
+          <a href="#contacto"><i class="bi bi-envelope"></i></a>
+      </div>
+      <div class="btn-mas">
+          <label for="btn-mas" class="icon-mas2"><i class="bi bi-plus-lg"></i></label>
+      </div>
+  </div>
+
     <!-- Pie de pagina(footer) -->
 
     <footer
-      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center" id="contacto"
     >
     <i class="bi bi-braces" style="color:white; font-size: 2.5rem"></i>
       <p
