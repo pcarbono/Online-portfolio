@@ -42,8 +42,8 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light" id="home">
-      <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light " id="home">
+      <div class="container-fluid" >
         <button
           class="navbar-toggler"
           type="button"
@@ -70,6 +70,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#proyectos">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#studies">Studies</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#testimonios">Experience</a>
@@ -191,7 +194,7 @@
 
     <!-- Proyectos -->
 
-    <section id="proyectos">
+    <section id="proyectos" >
       <h2 class="seccion-titulo texto-negro">My projects</h2>
       <h3 class="seccion-descripcion">
         Here are a few personal projects...
@@ -506,7 +509,7 @@
     </section>
 
     <!-- Estudios -->
-    <section class="articulos justify-content-start">
+    <section class="articulos justify-content-start" id="studies">
       <h2 class="seccion-titulo seccion-fuente">Studies</h2>
       <div class="card">
         <div class="card-header" style="font-family: 'Quicksand', sans-serif">
@@ -713,11 +716,14 @@
 
     <div class="fixed_button">
       <input type="checkbox" id="btn-mas">
-      <div class="redes">
-          <a href="#home"><i class="bi bi-house-add-fill"></i></a>
-          <a href="#experiencia"><i class="bi bi-person-circle"></i></a>
-          <a href="#proyectos"><i class="bi bi-gear-wide-connected"></i></a>
-          <a href="#contacto"><i class="bi bi-envelope"></i></a>
+      <div class="links">
+
+          <a href="https://github.com/pcarbono" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          
+          <a href="https://www.linkedin.com/in/pcarbono" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                   
+          <a href="https://api.whatsapp.com/send?phone=+573114026601&text=Hi Pedro! I want to contact you." target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+          
       </div>
       <div class="btn-mas">
           <label for="btn-mas" class="icon-mas2"><i class="bi bi-plus-lg"></i></label>
@@ -727,7 +733,7 @@
     <!-- Pie de pagina(footer) -->
 
     <footer
-      class="seccion-oscura d-flex flex-column align-items-center justify-content-center" id="contacto"
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
     >
     <i class="bi bi-braces" style="color:white; font-size: 2.5rem"></i>
       <p
