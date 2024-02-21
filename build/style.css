@@ -1,7 +1,7 @@
 /* Barra de navegacion */
 
 .navbar {
-    padding: 5px;
+    padding: 10px;
     background-color: #1b1b32;
    
 }
@@ -37,7 +37,7 @@
 }
 
 #contacto {
-    scroll-margin-top: 135px;
+    scroll-margin-top: 155px;
 }
 
 #proyectos{
@@ -116,7 +116,7 @@ h1{
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 
